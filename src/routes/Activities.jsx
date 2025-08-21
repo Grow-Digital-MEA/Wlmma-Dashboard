@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import DataTable from "../components/dashboard/DataTabel";
+import DataTable from "../components/DataTabel";
 import useGetActivities from "../hooks/settings/useGetActivities";
 import DataLoader from "../ui/DataLoader";
 import ActivityView from "../ui/modals/ActivityView";

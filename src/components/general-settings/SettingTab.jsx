@@ -1,10 +1,10 @@
 import { useRef, useState, useEffect } from "react";
 import { toast } from "sonner";
 import JoditEditor from "jodit-react";
-import SubmitButton from "../../../ui/forms/SubmitButton";
-import useGetSettings from "../../../hooks/settings/useGetSettings";
-import axiosInstance from "../../../utils/axiosInstance";
-import DataLoader from "../../../ui/DataLoader";
+import useGetSettings from "../../hooks/settings/useGetSettings";
+import axiosInstance from "../../utils/axiosInstance";
+import SubmitButton from "../../ui/forms/SubmitButton";
+import DataLoader from "../../ui/DataLoader";
 
 export default function SettingTab({ title, type }) {
   const contentRef = useRef({ describtion_ar: "", describtion_en: "" });

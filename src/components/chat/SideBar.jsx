@@ -1,6 +1,6 @@
 import { useSearchParams } from "react-router";
-import useGetRooms from "../../../hooks/chat/useGetRooms";
 import { useState } from "react";
+import useGetRooms from "../../hooks/chat/useGetRooms";
 
 export default function SideBar() {
   const { data: rooms } = useGetRooms();

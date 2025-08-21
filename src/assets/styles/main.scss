@@ -7,9 +7,7 @@ body {
   background: #fff;
   font-family: "Vazirmatn", sans-serif;
 
-  @import "./scss/layout";
   @import "./scss/error-page";
-  @import "./scss/home";
   @import "./scss/form_ui";
   @import "./scss/dashboard";
   @import "./scss/chats";

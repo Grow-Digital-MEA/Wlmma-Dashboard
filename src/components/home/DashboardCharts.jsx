@@ -1,5 +1,5 @@
 import Chart from "react-apexcharts";
-import useGetStatistics from "../../../hooks/settings/useGetStatistics";
+import useGetStatistics from "../../hooks/settings/useGetStatistics";
 
 export default function DashboardCharts() {
   const { data: statistics } = useGetStatistics();

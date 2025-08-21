@@ -1,7 +1,7 @@
-import Statistics from "../components/dashboard/home/Statistcs";
-import QuickActions from "../components/dashboard/home/QuickActions";
-import TopBanner from "../components/dashboard/home/TopBanner";
-import DashboardCharts from "../components/dashboard/home/DashboardCharts";
+import Statistics from "../components/home/Statistcs";
+import QuickActions from "../components/home/QuickActions";
+import TopBanner from "../components/home/TopBanner";
+import DashboardCharts from "../components/home/DashboardCharts";
 
 export default function DashBoard() {
   return (

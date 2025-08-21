@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import useGetRoomById from "../../../hooks/chat/useGetRoomById";
-import useGetRooms from "../../../hooks/chat/useGetRooms";
-import axiosInstance from "../../../utils/axiosInstance";
-import DataLoader from "../../../ui/DataLoader";
+import useGetRoomById from "../../hooks/chat/useGetRoomById";
+import useGetRooms from "../../hooks/chat/useGetRooms";
+import axiosInstance from "../../utils/axiosInstance";
+import DataLoader from "../../ui/DataLoader";
+
 
 export default function ChatRoom() {
   const queryClient = useQueryClient();

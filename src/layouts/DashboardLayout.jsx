@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
 import { requestPermission, listenToMessages } from "../firebase/service";
 import { useEffect } from "react";
-import Sidebar from "../components/dashboard/Sidebar";
+import Sidebar from "../components/Sidebar";
 import useGetRooms from "../hooks/chat/useGetRooms";
 import useGetRoomById from "../hooks/chat/useGetRoomById";
 

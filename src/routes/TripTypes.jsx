@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import DataTable from "../components/dashboard/DataTabel";
+import DataTable from "../components/DataTabel";
 import DataLoader from "../ui/DataLoader";
 import useGetTripTypes from "../hooks/settings/useGetTripTypes";
 import ConfirmDeleteModal from "../ui/modals/ConfirmDeleteModal";

@@ -1,6 +1,5 @@
 import { createBrowserRouter, Outlet } from "react-router";
 
-import LandingLayout from "../layouts/LandingLayout";
 import ProtectionProvider from "./ProtectionProvider";
 import DashboardLayout from "../layouts/DashboardLayout";
 
@@ -10,7 +9,6 @@ import Users from "../routes/Users";
 import Requests from "../routes/Requests";
 import Companies from "../routes/Companies";
 import DashBoard from "./../routes/DashBoard";
-import LandingPage from "../routes/LandingPage";
 import GeneralSettings from "../routes/GeneralSettings";
 import ProvidersUsers from "../routes/ProvidersUsers";
 import ToolOrders from "../routes/ToolOrders";
@@ -26,20 +24,6 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <LandingLayout />,
-        children: [
-          {
-            index: true,
-            element: <LandingPage />,
-          },
-        ],
-      },
-      {
-        path: "login",
-        element: <Login />,
-      },
-      {
-        path: "dashboard",
         element: (
           <ProtectionProvider>
             <DashboardLayout />
@@ -87,6 +71,10 @@ export const router = createBrowserRouter([
             element: <TripTypes />,
           },
         ],
+      },
+      {
+        path: "login",
+        element: <Login />,
       },
     ],
   },

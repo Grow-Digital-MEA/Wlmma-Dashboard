@@ -1,5 +1,5 @@
 import { useState } from "react";
-import DataTable from "../components/dashboard/DataTabel";
+import DataTable from "../components/DataTabel";
 import useGetUsers from "../hooks/users/useGetUsers";
 import DataLoader from "../ui/DataLoader";
 import UserModal from "../ui/modals/UserModal";

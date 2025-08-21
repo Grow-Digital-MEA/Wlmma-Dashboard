@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Tab, Tabs } from "react-bootstrap";
-import SettingTab from "../components/dashboard/general-settings/SettingTab";
-import AppSlidersTab from "./../components/dashboard/general-settings/AppSlidersTab";
-import FaqsTab from "../components/dashboard/general-settings/FaqsTab";
+import SettingTab from "../components/general-settings/SettingTab";
+import AppSlidersTab from "./../components/general-settings/AppSlidersTab";
+import FaqsTab from "../components/general-settings/FaqsTab";
 
 export default function GeneralSettings() {
   const [key, setKey] = useState("about-us");

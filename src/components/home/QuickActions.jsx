@@ -36,7 +36,7 @@ export default function QuickActions() {
       <div className="actions_links">
         {actions.map((action, index) => (
           <Link
-            to={`/dashboard/${action.to}`}
+            to={`/${action.to}`}
             className="action_link"
             key={index}
           >

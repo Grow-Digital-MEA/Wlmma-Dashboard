@@ -1,5 +1,5 @@
 import CountUp from "react-countup";
-import useGetStatistics from "../../../hooks/settings/useGetStatistics";
+import useGetStatistics from "../../hooks/settings/useGetStatistics";
 
 export default function Statistics() {
   const { data: statistics, isLoading } = useGetStatistics();

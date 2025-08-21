@@ -52,7 +52,7 @@ export default function useLogin() {
         sameSite: "Strict",
       });
 
-      navigate("/dashboard");
+      navigate("/");
     },
 
     onError: (error) => {

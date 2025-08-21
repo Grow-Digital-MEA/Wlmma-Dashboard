@@ -1,9 +1,9 @@
 import { useState } from "react";
+import useDeleteFaq from './../../hooks/actions/useDeleteFaq';
+import useGetFaqs from './../../hooks/settings/useGetFaqs';
+import AddEditFaq from "../../ui/modals/AddEditFaq";
+import ConfirmDeleteModal from "../../ui/modals/ConfirmDeleteModal";
 import DataTable from "../DataTabel";
-import useGetFaqs from "../../../hooks/settings/useGetFaqs";
-import ConfirmDeleteModal from "../../../ui/modals/ConfirmDeleteModal";
-import AddEditFaq from "../../../ui/modals/AddEditFaq";
-import useDeleteFaq from "../../../hooks/actions/useDeleteFaq";
 
 export default function FaqsTab() {
   const [item, setItem] = useState({});

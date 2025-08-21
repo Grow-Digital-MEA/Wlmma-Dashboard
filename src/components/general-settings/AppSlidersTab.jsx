@@ -1,10 +1,11 @@
 import { useState } from "react";
+import useGetAppSlider from './../../hooks/settings/useGetAppSlider';
+import useDeleteSlider from './../../hooks/actions/useDeleteSlider';
+import ConfirmDeleteModal from "../../ui/modals/ConfirmDeleteModal";
+import AddSlideModal from './../../ui/modals/AddSlideModal';
+import DataLoader from "../../ui/DataLoader";
 import DataTable from "../DataTabel";
-import AddSlideModal from "../../../ui/modals/AddSlideModal";
-import useGetAppSlider from "../../../hooks/settings/useGetAppSlider";
-import useDeleteSlider from "../../../hooks/actions/useDeleteSlider";
-import DataLoader from "../../../ui/DataLoader";
-import ConfirmDeleteModal from "../../../ui/modals/ConfirmDeleteModal";
+
 
 export default function AppSlidersTab() {
   const [page, setPage] = useState(1);

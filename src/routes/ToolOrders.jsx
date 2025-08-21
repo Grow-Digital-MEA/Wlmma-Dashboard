@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Fancybox } from "@fancyapps/ui";
-import DataTable from "../components/dashboard/DataTabel";
+import DataTable from "../components/DataTabel";
 import useGetTools from "../hooks/settings/useGetTools";
 import DataLoader from "../ui/DataLoader";
 import ToolView from "../ui/modals/ToolView";

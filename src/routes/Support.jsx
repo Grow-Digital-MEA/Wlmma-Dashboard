@@ -1,5 +1,5 @@
-import ChatRoom from "../components/dashboard/chat/ChatRoom";
-import SideBar from "../components/dashboard/chat/SideBar";
+import ChatRoom from "../components/chat/ChatRoom";
+import SideBar from "../components/chat/SideBar";
 import useGetRooms from "../hooks/chat/useGetRooms";
 import DataLoader from "./../ui/DataLoader";
 
