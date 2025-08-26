@@ -9,7 +9,7 @@ import axiosInstance from "../../utils/axiosInstance";
 
 export default function useLogin() {
   const schema = yup.object().shape({
-    email: yup.string().required("Please enter your email"),
+    email: yup.string().required("Please enter your phone number"),
     password: yup.string().required("Please enter your password"),
   });
 
